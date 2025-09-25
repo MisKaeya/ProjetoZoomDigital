@@ -1,0 +1,34 @@
+
+State Machine - |coprocessor|data_management:data_manager_inst|state
+Name state.S_UPDATE state.S_WRITE state.S_FETCH state.S_IDLE state.S_DONE 
+state.S_IDLE 0 0 0 0 0 
+state.S_FETCH 0 0 1 1 0 
+state.S_WRITE 0 1 0 1 0 
+state.S_UPDATE 1 0 0 1 0 
+state.S_DONE 0 0 0 1 1 
+
+State Machine - |coprocessor|zoom_controller_3:zoom_controller_inst|IMAGE_STATE
+Name IMAGE_STATE.S_DEFAULT IMAGE_STATE.S_REDUCED IMAGE_STATE.S_ENLARGED 
+IMAGE_STATE.S_DEFAULT 0 0 0 
+IMAGE_STATE.S_ENLARGED 1 0 1 
+IMAGE_STATE.S_REDUCED 1 1 0 
+
+State Machine - |coprocessor|vga_module:vga_module_inst|v_state
+Name v_state.V_BACK_STATE v_state.V_PULSE_STATE v_state.V_FRONT_STATE v_state.V_ACTIVE_STATE 
+v_state.V_ACTIVE_STATE 0 0 0 0 
+v_state.V_FRONT_STATE 0 0 1 1 
+v_state.V_PULSE_STATE 0 1 0 1 
+v_state.V_BACK_STATE 1 0 0 1 
+
+State Machine - |coprocessor|vga_module:vga_module_inst|h_state
+Name h_state.H_BACK_STATE h_state.H_PULSE_STATE h_state.H_FRONT_STATE h_state.H_ACTIVE_STATE 
+h_state.H_ACTIVE_STATE 0 0 0 0 
+h_state.H_FRONT_STATE 0 0 1 1 
+h_state.H_PULSE_STATE 0 1 0 1 
+h_state.H_BACK_STATE 1 0 0 1 
+
+State Machine - |coprocessor|controller:controller_inst|state
+Name state.S_IDLE state.S_DONE state.S_PROCESSING 
+state.S_IDLE 0 0 0 
+state.S_PROCESSING 1 0 1 
+state.S_DONE 1 1 0 
