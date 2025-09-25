@@ -1,6 +1,6 @@
 # ProjetoZoomDigital
 
-Redimencionamento de imagens com FPGA (Intel Altera Ciclone V // CPLD DE1-SoC em Verilog.
+Redimensionamento de imagens com FPGA (Intel Altera Ciclone V // CPLD DE1-SoC em Verilog.
 **Componentes:** Maria José Ramos Neta, Guilherme Moreira Gonçalves dos Santos e Adson Víctor de Souza Alves
 
 **INTRODUÇÃO**
