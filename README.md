@@ -1,4 +1,4 @@
-# ProjetoZoomDigital
+# Projeto Zoom Digital
 
 Redimensionamento de imagens com FPGA (Intel Altera Ciclone V // CPLD DE1-SoC em Verilog.
 **Componentes:** Maria José Ramos Neta, Guilherme Moreira Gonçalves dos Santos e Adson Víctor de Souza Alves
@@ -38,7 +38,7 @@ Redimensionamento de imagens com FPGA (Intel Altera Ciclone V // CPLD DE1-SoC em
     - Configurar variáveis de ambiente (opcional)
     - Se pretende rodar scripts de linha de comando (quartus_sh), adicione a pasta quartus/bin ao PATH do sistema.
     
-     <<A instalção do projeto é bem simples! Apenas instale o projeto e execute o arquivo QPF no Quartus Prime.>>
+     <<A instalação do projeto é bem simples! Apenas baixe o projeto e execute o arquivo QPF no Quartus Prime.>>
   
 //**DESCRIÇÃO DOS TESTES**
 
